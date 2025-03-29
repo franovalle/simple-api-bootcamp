@@ -13,7 +13,7 @@ let meds = document.querySelector('input').value
             //console.log(data.results[0].openfda.manufacturer_name)
             document.querySelector('h2').innerText = data.results[0].brand_name
             document.querySelector('h3').innerText = data.results[0].generic_name
-           document.querySelector('h4').innerText = data.results[0].openfda.pharm_class_moa
+           //document.querySelector('h4').innerText = data.results[0].openfda.pharm_class_moa
 
         })
         .catch(err => {
